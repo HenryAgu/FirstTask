@@ -1,13 +1,12 @@
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   margin: 50px auto;
 }
 
 .navigation-icons{
   width: 50%;
+  margin: 0 auto;
   display: flex;
   justify-content: right;
 }
@@ -76,8 +75,23 @@
 
 .profile-socials{
   display: flex;
+  justify-content: center;
   gap: 20px;
   align-items: center;
+  margin-bottom: 100px;
 }
 
-/* border-bottom: 1.66667px solid #98A2B3; */
+
+
+.sponsors{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.66667px solid #98A2B3;
+  padding-top: 30px;
+}
+
+.sponsors img{
+  width: auto;
+}
