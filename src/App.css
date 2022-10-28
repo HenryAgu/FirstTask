@@ -6,6 +6,28 @@
   margin: 50px auto;
 }
 
+.navigation-icons{
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+.navigation-icons img{
+  border: 1.66667px solid #98A2B3;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navigation-icons .share{
+  border-radius: 50%;
+}
+
+.navigation-icons .menu{
+  padding: 15px 10px;
+  border-radius: 50%;
+  display: none;
+}
+
 .profile-header {
   display: flex;
   justify-content: center;
@@ -50,3 +72,12 @@
   font-size: 18px;
   line-height: 50px;
 }
+
+
+.profile-socials{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* border-bottom: 1.66667px solid #98A2B3; */
