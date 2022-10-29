@@ -93,6 +93,9 @@
 
 /* Small screens */
 @media only screen and (max-width: 480px) {
+  .navigation-icons {
+    width: 80%;
+  }
   .navigation-icons .share {
     display: none;
   }
