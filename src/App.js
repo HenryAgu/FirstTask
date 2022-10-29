@@ -30,7 +30,7 @@ function App() {
         <a href="http://books.zuri.team/" id="books">
           Zuri Books
         </a>
-        <a href="https://books.zuri.team/" id="book__python">
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=aguhenrychuks" id="book__python">
           Python Books
         </a>
         <a href="https://background.zuri.team/" id="pitch">
@@ -42,7 +42,7 @@ function App() {
       </div>
       <div className="profile-socials">
         <a
-          href="https://hng9.slack.com"
+          href="https://hng9.slack.com/aguhenrychuks"
         >
           <img src={slack} alt="slack" />
         </a>
