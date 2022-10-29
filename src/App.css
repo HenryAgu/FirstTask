@@ -35,6 +35,12 @@
   gap: 20px;
 }
 
+.profile-header img{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
 .profile-header b {
   font-family: "Inter", sans-serif;
   font-family: "Inter";

@@ -2,7 +2,7 @@
 import "./App.css";
 
 // Images
-import profile_img from "./images/profile__img.png";
+import profile_img from "./images/avatar.jpeg";
 import shareImage from "./images/share.png";
 import menuImage from "./images/menu.png";
 import slack from "./images/slack.png";
@@ -21,7 +21,7 @@ function App() {
       {/* section containing profile and name */}
       <div className="profile-header">
         <img src={profile_img} alt="profile_img" id="profile__img" />
-        <b>Annette Black</b>
+        <b>Henry Agu</b>
       </div>
       {/* Profile links */}
       <div className="profile-links">
