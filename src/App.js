@@ -1,6 +1,7 @@
 // stylesheet
 import "./App.css";
 
+
 // Components
 import Footer from "./components/Footer";
 import Profile from "./components/Profile";

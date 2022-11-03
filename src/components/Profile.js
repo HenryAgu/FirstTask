@@ -1,4 +1,5 @@
-import React from "react";
+// React Helmet
+import { Helmet } from "react-helmet";
 
 // Images
 import profile_img from "../images/avatar.jpeg";
@@ -8,13 +9,18 @@ import slack from "../images/slack.png";
 import github from "../images/github.png";
 
 // Stylesheet
-import "./Profile.css"
+import "./Profile.css";
 
 // Link
-import { Link } from "react-router-dom" 
+import { Link } from "react-router-dom";
 const Profile = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Welcome | Linktree Profile</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div className="container">
         {/* The top icons */}
         <div className="navigation-icons">
