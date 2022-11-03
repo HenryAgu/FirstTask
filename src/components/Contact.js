@@ -21,12 +21,20 @@ const Contact = () => {
             <div className="first-name">
               <label>First Name</label>
               <br />
-              <input type="text" placeholder="Enter your first name" />
+              <input
+                type="text"
+                placeholder="Enter your first name"
+                id="first_name"
+              />
             </div>
             <div className="last-name">
               <label>Last Name</label>
               <br />
-              <input type="text" placeholder="Enter your last name" />
+              <input
+                type="text"
+                placeholder="Enter your last name"
+                id="last_name"
+              />
             </div>
           </div>
         </form>
