@@ -9,6 +9,9 @@ import github from "../images/github.png";
 
 // Stylesheet
 import "./Profile.css"
+
+// Link
+import { Link } from "react-router-dom" 
 const Profile = () => {
   return (
     <>
@@ -42,6 +45,7 @@ const Profile = () => {
           <a href="https://books.zuri.team/design-rules" id="book__design">
             Design Books
           </a>
+          <Link to="/contact">Contact Me</Link>
         </div>
         <div className="profile-socials">
           <a href="https://hng9.slack.com/aguhenrychuks">
