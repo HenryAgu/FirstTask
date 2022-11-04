@@ -52,7 +52,7 @@ const Contact = () => {
               id="message"
               placeholder="Send me a message and I'll reply you as soon as possible..."
             ></textarea>
-            <span>Please enter a message</span>
+            <span className="message-error">Please enter a message</span>
           </div>
           <div className="check">
             <input type="checkbox" />
