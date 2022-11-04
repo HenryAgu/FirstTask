@@ -95,7 +95,7 @@ const Contact = () => {
               placeholder="Send me a message and I'll reply you as soon as possible..."
               value={message}
               onChange={(event) => setMessage(event.target.value)}
-              className={error && message.length <= 0 ? "special-message-error":"textarea"}
+              className={error && message.length <= 0 ? "special-message-error":"message-default"}
             ></textarea>
             {error && message.length <= 0 ? (
               <span className="message-error">Please enter a message</span>
