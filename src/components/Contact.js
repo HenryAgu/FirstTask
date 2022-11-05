@@ -104,7 +104,7 @@ const Contact = () => {
             )}
           </div>
           <div className="check">
-            <input type="checkbox" required/>
+            <input type="checkbox"/>
             <p>
               You agree to providing your data to Henry who may contact you.
             </p>
