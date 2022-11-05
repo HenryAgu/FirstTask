@@ -109,7 +109,7 @@ const Contact = () => {
               You agree to providing your data to Henry who may contact you.
             </p>
           </div>
-          <button>Send message</button>
+          <button id="btn__submit">Send message</button>
         </form>
       </div>
     </>
