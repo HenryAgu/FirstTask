@@ -1,6 +1,3 @@
-// React Helmet
-import { Helmet } from "react-helmet";
-
 // React Hook
 import React, { useState } from "react";
 
@@ -25,11 +22,6 @@ const Contact = () => {
   };
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Contact Me | Linktree Profile</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
       <div className="contact">
         <div className="contact-header">
           <h1>Contact Me</h1>

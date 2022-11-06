@@ -1,6 +1,3 @@
-// React Helmet
-import { Helmet } from "react-helmet";
-
 // Images
 import profile_img from "../images/avatar.jpeg";
 import shareImage from "../images/share.png";
@@ -16,11 +13,6 @@ import { Link } from "react-router-dom";
 const Profile = () => {
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Welcome | Linktree Profile</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
       <div className="container">
         {/* The top icons */}
         <div className="navigation-icons">
