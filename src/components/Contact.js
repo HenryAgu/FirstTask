@@ -18,8 +18,6 @@ const Contact = () => {
     ) {
       event.preventDefault();
       setError(true);
-    }else{
-      alert('Form Submitted')
     }
   };
   return (
